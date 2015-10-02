@@ -1,0 +1,76 @@
+html,
+body {
+    background: #ebebeb;
+}
+
+header {
+    background: #202020;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+header .container {
+    padding: 10px 0;
+}
+header .container h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+label.radio,
+label.checkbox {
+    margin-bottom: 0px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+}
+input[type="text"],
+textarea,
+select {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 5px;
+    width: 100%;
+}
+form {
+    background: #fff;
+    padding: 10px;
+}
+form p span {
+    color: #c00;
+    font-size: 11px;
+}
+.field-list {
+    background: #fff;
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0 10px;
+}
+.field-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.field-list li:last-child {
+    border-bottom: none;
+}
+.field-list li span {
+    display: block;
+}
+.field-list li span:first-child:before {
+    content: 'Question: ';
+    font-weight: bold;
+}
+.field-list li span:last-child:before {
+    content: 'Input Type: ';
+    font-weight: bold;
+}
+#survey_results h4 {
+    margin-bottom: 0;
+}
